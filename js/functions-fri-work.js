@@ -23,19 +23,18 @@
          *
          * console.log 'helloMessage' to check your work
          */
-        var helloMessage = name (chris);
-
-        console.log('helloMessage');
-
+        var helloMessage = sayHello( "Chris");
+        console.log(helloMessage);
 
         /**
          * TODO:
          * Store your name as a string in a variable named 'myName', and pass that
          * variable to the 'sayHello' function. You should see the same output in the
          * console.
-         */ let myName = (Chris){
-                 var sayHello(myName);
-            }
+         */
+        var myName = "Chris";
+        sayHello(myName);
+        console.log(sayHello(myName));
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
@@ -58,11 +57,16 @@
          * different result everytime you refresh the page if you are using the random
          * number)
          */
-        function isTwo(4 - 2){
-                var 2 = (4 - 2)
-                    return ("true")
-        }
+        function isTwo(num){
+        if(num === 2){
+                return true;
+                else {
+                        return false;
+                }
+        }}
+    }
 
+    console.log(isTwo(random));
         /**
          * TODO:
          * Create a function named 'calculateTip' to calculate a tip on a bill at a
@@ -92,7 +96,8 @@
 
         var billTotal = prompt(" here is your total, sir.");
         var percentage= prompt( "how much will you tip?");
-        var
+
+        console.log(calculateTip(tip, total));
 
 
         /**
