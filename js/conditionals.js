@@ -90,6 +90,10 @@
 //      * user to your `analyzeColor` function. Alert the return value from your
 //      * function to show it to the user.
 //      */
+    var userInput = prompt(color){
+        console.log(analyzeColor)
+        alert("blue")
+    }
 
 
 
@@ -115,6 +119,13 @@
 //      * Test your function by passing it various values and checking for the expected
 //      * return value.
 //      */
+    function calculateTotal(total, discount){
+        if (discount === "1"){
+            return total - (.1 * total):
+        }
+        if (discount ==="2")
+    }
+
 //
 //     /**
 //      * TODO:
