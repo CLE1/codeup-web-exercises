@@ -87,31 +87,56 @@
 
     //-----------
 
-    var dozens = 0;
-    for(let i = 0; i <= 36; i++){
+    // var dozens = 0;
+    // for(let i = 0; i <= 36; i++){
+    //
+    //     if(i % 12 === 0){
+    //         console.log('starting with: ${dozens} dozen eggs');
+    //         dozens++;
+    //         console.log(dozens);
+    //         break;
+    //         console.log('we now have ${dozens} dozen eggs');
+    //     }
+    // }
+    //
+    // for(let i = 0; i <= 10; i++){
+    //     console.log('first: ${i}');
+    //     continue;
+    //     break;
+    //     i = i*2;
+    //     console.log('second ${i}');
+    // }
+    //
+    // var understanding = 3;
 
-        if(i % 12 === 0){
-            console.log('starting with: ${dozens} dozen eggs');
-            dozens++;
-            console.log(dozens);
-            break;
-            console.log('we now have ${dozens} dozen eggs');
+
+////------------- NESTED LOOP
+
+    // for( let counter = 1; counter <= 5; counter++){
+    //
+    //     console.log("first: " + counter);
+    //     for(let counterTwo = 5; coounterTwo > 0; counterTwo--){
+    //         console.log('inner counterTwo: ${counterTwo}');
+    //     }
+    // }
+
+// TODO: Loop through a set of numbers (0-30), if the number you're currently at is even, add 2 to it. If it's an
+//  odd number, print "odd"
+// // HINT: remember the remainder operator (modulo)
+
+    for (var i = 0; i < 30; i++){
+        if(i % 2 === 0){
+            console.log(i + 2);
+        }else{
+            console.log("odd is: " + 1);
         }
     }
 
-    for(let i = 0; i <= 10; i++){
-        console.log('first: ${i}');
-        continue;
-        break;
-        i = i*2;
-        console.log('second ${i}');
-    }
-
-    var understanding = 3;
 
 
-
-
+    // // TODO: loop through numbers 1 - 40. Print "marco" if it's divisible by 3. Print "polo" if it's divisible by 5.
+//  If it's neither print "I'm not playing"
+//  Print "marco polo" if it's divisible by 3 and 5.
 
 
 
