@@ -14,7 +14,7 @@
 //
 // for (var i = 0; i < 10; i++){
 //
-//     var random = Math.floor(Math.random() * 20) + 180;
+//     var random = Math.floor(Math.random() * (200 - 20)) + 180;
 //
 //     if(random % 2 === 0){
 //         console.log(random + " is even");
@@ -25,14 +25,7 @@
 
 //-------
 
-
-
-
-
-
-
-
-
+finish
 
 
 //---------
