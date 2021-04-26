@@ -15,7 +15,7 @@
     //  * Create a log statement that will log the number of elements in the names
     //  * array.
     //  */
-    console.log(theAvengers[0], theAvengers[1], theAvengers[2], theAvengers[3]);
+    // console.log(theAvengers[0], theAvengers[1], theAvengers[2], theAvengers[3]);
 
 
     //
@@ -24,9 +24,11 @@
     //  * Create log statements that will print each of the names individually by
     //  * accessing each element's index.
     //  */
-
-
-
+    // console.log(theAvengers[0]);
+    // console.log(theAvengers[1]);
+    // console.log(theAvengers[2]);
+    // console.log(theAvengers[3]);
+    //
 
     //
     // /**
@@ -34,11 +36,23 @@
     //  * Write some code that uses a for loop to log every item in the names
     //  * array.
     //  */
+    // for (var i = 0; i < theAvengers.length; i++){
+    //     console.log(theAvengers[i]);
+    // }
+
+
     //
     // /**
     //  * TODO:
     //  * Refactor your above code to use a `forEach` loop
     //  */
+    theAvengers.forEach(function(name){
+        console.log(name)
+
+    }
+
+
+
     //
     // /**
     //  * TODO:
@@ -53,5 +67,8 @@
     //  *  > second([1, 2, 3, 4, 5]) // returns 2
     //  *  > last([1, 2, 3, 4, 5]) // return 5
     //  */
+
+
+
 
 })();
