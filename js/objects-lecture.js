@@ -174,20 +174,136 @@ losSpurs.sport = "basketball";
 
 // Nested Values
 
-var animals = ["dogs", "cats", "birds"];
-console.log(animals)
+// var animals = ["dogs", "cats", "birds"];
+// console.log(animals)
+//
+// var theSpurs = {
+//     city: "SA",
+//     coach: 'Gregg'
+//     wins: 5,
+//     players: ["one", "two", "tia duncan", "manu", "david robinson"],
+//     playerInfo: {
+//         duncan
+//
+// }
+
+// // Assigning Functionality
+
+// var laptop = {
+//
+//     color: 'space gray',
+//     make: 'mac',
+//     size: 13,
+//
+//     shutdown: function{
+//         return "laptop is shutting down"
+//     }
+// }
+//
+// // // lets shut down our laptops off
+// console.log(laptop.shutDown());
+//
+// // // turn your laptop back on
+// laptop.turnOn = function (){
+//     return "laptops is now starting"
+// }
+// console.log(laptop.turnOn()):
+//
+// console.log(laptop.turnOn());
+// console.log(laptop);
+
+
+//
+
+// // THIS keyword
+
+
+var laptop = {
+
+    color: 'space gray',
+    make: 'mac',
+    size: 13,
+
+    whatSize: function (){
+        return 'A laptop is ${this.} inches wide';
+    }
+}
+
+
+// car inches = laptop.size;
+// console.log(laptop.whatSize(inches));
+
+console.log(laptop.whatSize());
+
 
 var theSpurs = {
     city: "SA",
-    coach: 'Gregg'
+    coach: 'gregg',
     wins: 5,
-    players: ["one", "two", "tia duncan", "manu", "david robinson"],
-    playerInfo: {
-        duncan
-
+    players: ["one", "two", "tim duncan", "manu", "david robinson"],
+    playerInfo: [
+        {
+            name: "Tim",
+            age: 40,
+            mvp: 3
+        },
+        {
+            name: "manu",
+            age: 38,
+            mvp: 6
+        }
+    ],
+    otherNBATeams: {
+        Jazz: {
+            city: "Salt Lake City",
+            mascot: "Jazz Bear",
+            champsWon: 0
+        },
+        Mavs: {
+            city: "Dallas",
+            mascot: "MavsMan & Champ",
+            champsWon: 1
+        },
+        Pistons: {
+            city: "Detroit",
+            mascot: "Hooper the Horse",
+            champsWon: 3
+        }
+    }
 }
+console.log(theSpurs.otherNBATeams.Mavs);
+// console.log(theSpurs.playerInfo[0].age);
+// console.log(theSpurs);
+// TODO: using above nested object, log the mascot of the "otherNBATeams", change "manu's" name
+//  from "manu" to "Ginobli", print out the 3rd element in the 'players' array, add another
+//  'otherNBATeam' team object.
 
-// // Assigning Functionality
+
+//
+
+
+/** Mini Exercises */
+/*  TODO: Create a zoo object that contains basic info about the zoo (name, city,
+      isOpen, ranking, yearOpened), as
+      well as, information about at least 5 different animals (think nested objects). For each
+      Each animal must contain 3 identifiers (examples: hasFur, isMammal, animalSound, canFly,
+       livingPlace). Each animal must also contain a method that returns the sound of that
+        animal using the THIS keyword.
+       hint: Each animal should have at least 5 properties (one of them being animalSound);
+*/
+
+    var zoo = {
+
+        name: "zombie zoo",
+        city: "zombie city",
+        isOpen: "9am",
+        ranking: "3of10",
+        yearOpened: 2012
+
+
+    }
+
+
 
 
 
