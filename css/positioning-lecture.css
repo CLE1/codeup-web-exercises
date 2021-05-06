@@ -1,6 +1,7 @@
 body {
     margin      : 0 auto;
     font-family : Calibri;
+    padding-top: 50px;
 }
 
 /*
@@ -11,21 +12,25 @@ TODO: notice in the html that we have
     -> ENTER -> position: fixed
 */
 header {
-    background-color : lightskyblue;
-    padding          : 2%;
+    background-color : orange;
+    padding         : 2%;
     width            : 100%;
-    height: 22px;
+    height: 10px;
+    position: fixed;
+    top: 0px;
+
 }
 
 #nav-anchor-container {
+
     margin     : 0 auto;
     list-style : none;
     padding    : 0;
 }
 
 #nav-anchor-container li {
-    display : inline;
-    padding : 1%;
+    display: inline;
+    padding : 0%;
 }
 
 /*
@@ -40,6 +45,8 @@ header {
 */
 main {
     height: 500px;
+
+
 }
 
 #blog-content-container {
@@ -48,6 +55,7 @@ main {
 
 #blog-title {
     padding-left : 2%;
+
 }
 
 .paragraph-container p {
