@@ -1,18 +1,13 @@
 "use strict";
 
+// Write a remainder(number, divisor) function that returns the remainder left over when dividing number by the divisor
+// If either of the arguments are not a numeric string or number, return a string message indicating which argument is not
+// a number/numeric string
 
-// Write a function named cube(n) that returns n * n * n
-// Write a function named cubeRoot(n) that returns the cube root of the input
-
-function cube(n){
-    return n * n * n;
-
-}
-
-console.log(cube(2, 2, 2));
-
-
-function cubeRoot(n){
-
+function remainder(num1, num2){
+    return num1 % num2;
 
 }
+
+console.log(remainder(9, 23))
+
