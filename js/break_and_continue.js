@@ -3,16 +3,16 @@
 
     var numberToStopAt = 49;
 
-    for (var i = 1; i < 50; i++) {
+    for (var i = 1; i < 50; i += 2) {
 
         console.log('Here is an odd number: ' + i);
 
-        if (i === 26) {
-            console.log('We have reached the stopping point: break!');
+        if (i === 25) {
+            console.log('Yikes! Skipping number:' + 27);
 
             continue;
 
-            console.log();
+
         }
     }
 
