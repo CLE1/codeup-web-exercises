@@ -1,6 +1,4 @@
-(
-
-    functions(){
+(functions(){
 
 
     "use strict";
@@ -124,7 +122,7 @@
             return total - (.1 * total):
         }
         if (discount ==="2")
-    }
+    };
 
 //
 //     /**
@@ -154,10 +152,4 @@
 //      * HINT: The way we prompt for a value could be improved
 //      */
 
-}
-
-
-
-
-
-)()
+})();

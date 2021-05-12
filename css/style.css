@@ -1,0 +1,14 @@
+/*
+multi
+line
+comment
+*/
+
+.fancy-header {
+    color: purple; /* single line comment */
+    text-decoration: underline;
+}
+
+h1 {
+    color: purple;
+}

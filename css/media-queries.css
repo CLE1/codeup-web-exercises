@@ -1,4 +1,10 @@
-div.alert-info hidden-on-desktop {
+a {
+   border-style: solid;
+
+}
+
+
+div {
 
     text-align: center;
 }
@@ -12,6 +18,8 @@ h1 {
 }
 
 ul.nav-links {
+
+
 
 
 }

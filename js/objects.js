@@ -12,12 +12,12 @@
      *  > console.log(person.lastName) // "Sanchez"
      */
 
-    var person = {
-        firstName: "Chris",
-        lastName: "Espinoza",
-    }
-    console.log(person.firstName);
-    console.log(person.lastName);
+    // var person = {
+    //     firstName: "Chris",
+    //     lastName: "Espinoza",
+    // }
+    // console.log(person.firstName);
+    // console.log(person.lastName);
 
 
     /**
@@ -29,12 +29,12 @@
      * Example
      * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
      */
-    person.sayHello = function () {
-        alert("Hello from Chris Espinoza!");
-    };
-
-    console.log(person.sayHello());
-
+    // person.sayHello = function () {
+    //     alert("Hello from Chris Espinoza!");
+    // };
+    //
+    // console.log(person.sayHello());
+    //
 
 
 
@@ -60,6 +60,8 @@
         {name: 'George', amount: 320}
     ];
 
+    console.log(shoppers.name());
+
     /** TODO:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
@@ -75,11 +77,31 @@
 
     var books = [
         {
-
-
+            title: "harry potter",
+            author: "J.K. Rowling",
+        },
+        {
+            title: "The Way of Kings",
+            author: "Brandon Sanderson",
+        },
+        {
+            title: "Libre",
+            author: "S.H. Jucha",
+        },
+        {
+            title: "Liberty",
+            author: "Alasdir Shaw",
+        },
+        {
+            title: "Rising Force",
+            author: "Ken Lozito",
+        },
+        {
+            title:" Dark Matters",
+            author: "Michelle Diener"
         }
 
-        ]
+        ];
 
     /**
      * TODO:
