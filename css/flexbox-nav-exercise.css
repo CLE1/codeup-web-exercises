@@ -14,4 +14,10 @@ ul{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
+    padding: 0;
+    margin: auto 0;
+    height: 100%;
 }
+
+
