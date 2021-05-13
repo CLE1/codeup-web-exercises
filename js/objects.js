@@ -127,6 +127,19 @@
      *      ---
      *      ...
      */
+    var books = ["book # 1"];
+
+
+    books.forEach(function(Book, Title, Author) {
+        console.log('Here is a lovely shape: ' + book + '.');
+
+
+
+    });
+
+
+
+
 
     /**
      * Bonus:

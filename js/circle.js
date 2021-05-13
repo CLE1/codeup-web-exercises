@@ -10,6 +10,7 @@
             radius: 3,
 
             getArea: function () {
+
                 // TODO: complete this method
                 // hint: area = pi * radius^2
 
@@ -18,6 +19,9 @@
 
             logInfo: function (doRounding) {
                 // TODO: complete this method.
+                if (Math.round(doRounding)){
+
+                }
 
                 // If doRounding is true, round the result to the nearest integer.
                 // Otherwise, output the complete value

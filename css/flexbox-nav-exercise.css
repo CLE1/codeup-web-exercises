@@ -1,8 +1,17 @@
 * {
     box-sizing: border-box;
+
 }
 
-.html{
-    background-color: #3B94D9;
+div{
+    padding: 0;
+    height: 100%;
 }
 
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
