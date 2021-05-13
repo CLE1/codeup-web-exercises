@@ -20,4 +20,11 @@ ul{
     height: 100%;
 }
 
+div.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
 
