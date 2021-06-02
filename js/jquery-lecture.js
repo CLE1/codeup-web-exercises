@@ -63,9 +63,13 @@
 
 // TODO:
 //
-$(".pink").addClass("")
+// $(".pink").addClass("")
+//
+// window.onload = function (){
+//     $(".pink").hide();
+//     console.log("Pink is hidden")
+// }
 
-window.onload = function (){
-    $(".pink").hide();
-    console.log("Pink is hidden")
-}
+$(document).ready(function() {
+    alert( 'The DOM has finished loading!' );
+});
