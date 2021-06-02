@@ -70,6 +70,3 @@
 //     console.log("Pink is hidden")
 // }
 
-$(document).ready(function() {
-    alert( 'The DOM has finished loading!' );
-});
