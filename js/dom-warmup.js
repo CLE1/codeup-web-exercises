@@ -13,7 +13,7 @@ function searchThis (event) {
    }
 
    function styleText (text) {
-    $(text).css("font-size )
+    $(text).css("font-size", "200px")
 
-   }
+   };
 
