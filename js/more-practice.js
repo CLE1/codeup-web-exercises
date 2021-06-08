@@ -44,10 +44,10 @@
         card.setAttribute('src', imgPath);
     }
 
-    $('#submitBtn').click(
-        function () {
-            $('#override-bootstrap').css('background-color', '#ff0000');
-        });
+    // $('#submitBtn').click(
+    //     function () {
+    //         $('#override-bootstrap').css('background-color', '#ff0000');
+    //     });
 
 // $(document).ready() < pass in a function to the ready() method , when the dom is fully loaded,
 // go ahead and execute the function being passed in
@@ -143,7 +143,28 @@
     // });
 
 
+    // TODO: Change up the submit button event
+    //  -> Add a new input with an id of #redirect-url
+    //  -> Remove the old click events from #submitBtn
+    //  -> When the user clicks #submitBtn, redirect the page to the value of #redirect-url
+    //  -> HINT: You can either add a new input or change the id of an existing input element to #redirect-url to save time
 
+    // $('#redirect-url').click(function(){
+    //     $(this).window.location = 'http://www.google.com';
+    //
+    //
+    // });
+
+    // TODO: After a 2 second delay (BOM), when the user loads the page, change #main-title to a value of your choosing (change text, background color, what have you)!
+
+
+    // TODO: When the user clicks #submitBtn, log to the console the values of #first, #last, and #handleField
+    //  -> If any of the fields are empty, alert the user to fill the empty control (be sure to tell them which control was empty)
+
+    $('#submitBtn').click(function (){
+        
+
+    });
 
 
 
