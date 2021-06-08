@@ -24,10 +24,11 @@
         }
     });
 
-    $.post("https://jsonplaceholder.typicode.com/posts", {
+    $.ajax("https://jsonplaceholder.typicode.com/posts", {
         name: "Chris Espinoza"
     })
 
+    $.ajax()
 
 
 
