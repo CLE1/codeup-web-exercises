@@ -37,7 +37,12 @@
             $('.invisible').css('visibility', 'hidden');
 
 
-
+            $(document).ready(function() {
+                $('dd').click(function(event) {
+                    event.preventDefault();
+                    $(this).toggleClass('highlighted');
+                });
+            });
 
         </script>
 
