@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+
         <title>FAQs</title>
     </head>
     <body>
@@ -30,6 +31,36 @@
             <dd class="invisible">What is the National Park Service budget?</dd>
         </dl>
 
+        <ul>
+            <h3>Glacier Bay National Park</h3>
+            <ul>
+                <li>Glacier Bay National Park covers a total area of 3,280,198 acres</li>
+                <li>The number of people visiting Glacier Bay in 2019 was 672,087 (All Years)</li>
+                <li>Glacier Bay was made a national park on December 2, 1980</li>
+                <li>The lowest elevation found in Glacier Bay is 0 feet at the Pacific Ocean</li>
+            </ul>
+        </ul>
+        <ul>
+            <h3>Denali National Park</h3>
+            <ul>
+                <li>Established: February 26, 1917</li>
+                <li>Size: 6,075,029 acres</li>
+                <li>Annual Visitors: 600,000</li>
+                <li>Visitor Centers: Denali, Eielson, Murie, Walter Harper</li>
+            </ul>
+        </ul>
+        <ul>
+            <h3>Gates of the Arctic National Park</h3>
+            <ul>
+                <li>Gates of the Arctic National Park covers a total area of 8,472,506 acres</li>
+                <li>The number of people visiting Gates of the Arctic in 2019 was 10,518 (All Years)</li>
+                <li>Gates of the Arctic was made a national park on December 2, 1980</li>
+                <li>The lowest elevation found in Gates of the Arctic is 280 feet at Kobuk River</li>
+            </ul>
+        </ul>
+
+        <button class="btn btn-primary" id="press-me"> click me :)</button>
+
 
         <script>
             "use strict";
@@ -37,11 +68,23 @@
             $('.invisible').css('visibility', 'hidden');
 
 
-            $(document).ready(function() {
-                $('dd').click(function(event) {
+            $(document).ready(function () {
+                $('dd').click(function (event) {
                     event.preventDefault();
                     $(this).toggleClass('highlighted');
                 });
+            });
+
+            $('#press-me').click(function () {
+                $("ul li").last().addClass("highlight");
+            });
+
+            $('h3 li').click(function () {
+                $(this).css('font-weight', 'bold')
+            });
+
+            $('li').click(function () {
+                $('ul').first().css('font-color', 'blue')
             });
 
         </script>
